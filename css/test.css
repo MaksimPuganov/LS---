@@ -3,14 +3,17 @@
 	padding: 0;
 }
 html {
-	max-height: 752px;
+	/*max-height: 752px;*/
+	position: relative;
+	min-height: 100%;
 }
 body {
 	font-family: "Fira Sans", "ProximaNova";
 	color: rgb( 74, 84, 93 );
 	background-image: url(../img/comppattern2.png);
 	background-repeat: repeat;
-	max-height: 752px;
+	/*max-height: 752px;*/
+	margin-bottom: 87px;
 }
 
 a {
@@ -197,8 +200,10 @@ div.cell p{
 footer {
 	background-color: #eff3f7;
 	height: 87px;
-	float: left;
+	/*float: left;*/
 	width: 100%;
+	position: absolute;
+	bottom: 0;
 }
 
 .copyright span {
