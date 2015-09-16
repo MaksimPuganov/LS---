@@ -3,7 +3,7 @@
 	padding: 0;
 }
 html {
-	/*max-height: 752px;*/
+/*	max-height: 752px;*/
 	position: relative;
 	min-height: 100%;
 }
@@ -12,7 +12,7 @@ body {
 	color: rgb( 74, 84, 93 );
 	background-image: url(../img/comppattern2.png);
 	background-repeat: repeat;
-	/*max-height: 752px;*/
+/*	max-height: 752px;*/
 	margin-bottom: 87px;
 }
 
