@@ -8,7 +8,7 @@ html {
 	min-height: 100%;
 }
 body {
-	font-family: "Fira Sans", "ProximaNova";
+	font-family: FiraSans, ProximaNova;
 	color: rgb( 74, 84, 93 );
 	background-image: url(../img/comppattern2.png);
 	background-repeat: repeat;
@@ -21,7 +21,7 @@ a {
 }
 li a{
 	color: #959aa8;
-	font-size: 18px;
+	font-size: 21px;
 }
 a:hover {
 	color: #3ba8c0;
@@ -110,7 +110,7 @@ aside li {
 	border-bottom: 1px solid #3ba8c0;
 	color: #959aa8;
 	padding-left: 25px;
-	line-height: 4;
+	line-height: 3.4;
 	vertical-align: middle;
 	list-style: none;
 }
@@ -136,21 +136,21 @@ aside > ul > li.actived > a {
 	color: white;
 }
 
-div.info {
+.info {
 	float: right;
 	width: 70%;
 	margin-top: 38px;
 }
 
-section.work,
-section.edu {
+.work,
+.edu {
 	background-color: #eff3f7;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	margin-bottom: 30px;
 }
-section.work > h1, 
-section.edu > h1 {
+.work > h1,
+.edu > h1 {
 	color: #3ba8c0;
 	font-size: 26px;
 	font-weight: normal;
@@ -176,17 +176,19 @@ section.edu > h1 {
 	padding-bottom: 10px;
 }
 
-div.cell img {
+.cell img {
 	padding-left: 55px;
 	padding-right: 35px;
 }
 
-div.cell span {
-	font-size: 18px;
+.cell span {
+    color: #4a545d;
+    font-size: 17px;
+    font-weight: 300;
 }
 
-div.cell p{
-	font-size: 16px;
+.cell p{
+	font-size: 15px;
 }
 .cap {
 	margin-left: -11px !important;
@@ -208,7 +210,9 @@ footer {
 
 .copyright span {
 	padding-left: 220px;
-	font-size: 14px !important;
+    color: #4a545d;
+    font-size: 13px !important;
+    font-weight: 300;
 	vertical-align: text-top;
 }
 
