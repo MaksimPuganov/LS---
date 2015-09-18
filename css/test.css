@@ -176,16 +176,16 @@ section.edu > h1 {
 	padding-bottom: 10px;
 }
 
-div.cell img {
+.cell img {
 	padding-left: 55px;
 	padding-right: 35px;
 }
 
-div.cell span {
+.cell span {
 	font-size: 18px;
 }
 
-div.cell p{
+.cell p{
 	font-size: 16px;
 }
 .cap {
