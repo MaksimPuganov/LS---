@@ -182,7 +182,6 @@ aside > ul > li.actived > a {
 }
 
 .cell span {
-<<<<<<< HEAD
     color: #4a545d;
     font-size: 17px;
     font-weight: 300;
@@ -190,14 +189,9 @@ aside > ul > li.actived > a {
 
 .cell p{
 	font-size: 15px;
-=======
-	font-size: 18px;
+    font-weight: 300;
 }
 
-.cell p{
-	font-size: 16px;
->>>>>>> origin/master
-}
 .cap {
 	margin-left: -11px !important;
     padding-left: 63px !important;
