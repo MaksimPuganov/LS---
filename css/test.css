@@ -33,12 +33,20 @@ header {
     width: 100%;
 }
 
-.grad {
+header:after {
+ content: " ";
+ display: block;
+ background-image: -moz-linear-gradient( 0deg, rgb( 28, 102, 122 ) 0%, rgb( 246, 250, 254 ) 0%, rgb( 216, 216, 216 ) 0%, rgb( 242, 246, 250 ) 0%, rgb( 28, 102, 122 ) 48.364%, rgb( 242, 246, 250 ) 100%);
+ background-image: -webkit-linear-gradient( 0deg, rgb( 28, 102, 122 ) 0%, rgb( 246, 250, 254 ) 0%, rgb( 216, 216, 216 ) 0%, rgb( 242, 246, 250 ) 0%, rgb( 28, 102, 122 ) 48.364%, rgb( 242, 246, 250 ) 100%);
+ height: 3px;
+}
+
+/*.grad {
 	 background-image: -moz-linear-gradient( 0deg, rgb( 28, 102, 122 ) 0%, rgb( 246, 250, 254 ) 0%, rgb( 216, 216, 216 ) 0%, rgb( 242, 246, 250 ) 0%, rgb( 28, 102, 122 ) 48.364%, rgb( 242, 246, 250 ) 100%);
 	 background-image: -webkit-linear-gradient( 0deg, rgb( 28, 102, 122 ) 0%, rgb( 246, 250, 254 ) 0%, rgb( 216, 216, 216 ) 0%, rgb( 242, 246, 250 ) 0%, rgb( 28, 102, 122 ) 48.364%, rgb( 242, 246, 250 ) 100%);
 	 width: 100%;
 	 height: 3px;
-}
+}*/
 
 .logo {
 	background-image: url(../img/logo.png);
@@ -58,7 +66,7 @@ header {
 .socialbut ul>li {
 	display: inline-block;
 	margin-left: 15px;
-} 
+}
 .vk, .tw, .fb, .github {
 	display: block;
 	height: 47px;
@@ -149,7 +157,7 @@ section.edu {
 	border-top-right-radius: 5px;
 	margin-bottom: 30px;
 }
-section.work > h1, 
+section.work > h1,
 section.edu > h1 {
 	color: #3ba8c0;
 	font-size: 26px;
@@ -169,7 +177,7 @@ section.edu > h1 {
 	padding-bottom: 15px;
 }
 .row {
-	display: table-row;	
+	display: table-row;
 }
 .cell {
 	display: table-cell;
@@ -196,6 +204,15 @@ section.edu > h1 {
 	margin-left: -1px !important;
     padding-left: 63px !important;
 }
+
+footer::before {
+ content: " ";
+ display: block;
+ background-image: -moz-linear-gradient( 0deg, rgb( 28, 102, 122 ) 0%, rgb( 246, 250, 254 ) 0%, rgb( 216, 216, 216 ) 0%, rgb( 242, 246, 250 ) 0%, rgb( 28, 102, 122 ) 48.364%, rgb( 242, 246, 250 ) 100%);
+ background-image: -webkit-linear-gradient( 0deg, rgb( 28, 102, 122 ) 0%, rgb( 246, 250, 254 ) 0%, rgb( 216, 216, 216 ) 0%, rgb( 242, 246, 250 ) 0%, rgb( 28, 102, 122 ) 48.364%, rgb( 242, 246, 250 ) 100%);
+ height: 3px;
+}
+
 
 footer {
 	background-color: #eff3f7;
