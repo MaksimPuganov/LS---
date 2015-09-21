@@ -157,13 +157,9 @@ aside > ul > li.actived > a {
 	border-top-right-radius: 5px;
 	margin-bottom: 30px;
 }
-<<<<<<< HEAD
-section.work > h1,
-section.edu > h1 {
-=======
+
 .work > h1,
 .edu > h1 {
->>>>>>> 91df3c7dd1aa22d4cca9ee67b7e8f30a4ea7e642
 	color: #3ba8c0;
 	font-size: 26px;
 	font-weight: normal;
@@ -226,7 +222,6 @@ footer::before {
 footer {
 	background-color: #eff3f7;
 	height: 87px;
-	/*float: left;*/
 	width: 100%;
 	position: absolute;
 	bottom: 0;
